@@ -1,0 +1,143 @@
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+body {
+  color: #888;
+  font-family: 300 25px/35pxpx 'Lato', sans-serif;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 960px;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+.navbar {
+	font-size: 18px;
+  font-weight: 700;
+  letter-spacing: .5px;
+	word-spacing: 10px;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+.footer {
+  color: #648880;
+  font-size: 14px;
+  padding-bottom: 44px;
+  padding-top: 44px;
+}
+
+/*
+  ========================================
+  Home
+  ========================================
+*/
+
+.welcome {
+  padding: 22px 80px 66px 80px;
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+h1, h2, h3, h4, h5, p {
+  margin-bottom: 22px;
+}
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+}
+h3 {
+  font-size: 21px;
+}
+h4 {
+  font-size: 18px;
+}
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.btn {
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0;
+	height: 50px;
+  line-height: 25px;
+}
+.btn-main {
+	font-size:1.5rem;
+  border: 1px solid #dfe2e5;
+  padding: 10px 30px;
+}
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a:hover {
+  color: #a9b2b9;
+}
+a {
+  color: #648880;
+	text-decoration: none;
+}
